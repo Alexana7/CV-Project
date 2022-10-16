@@ -1,0 +1,226 @@
+/* Large Divices */
+@media (max-width: 1679px) {
+    .container {
+        max-width: 1679px;
+        padding: 0px 15px;    
+    }
+    .cv-wrapper {
+        width: 1170px;    
+    }
+    h1 {
+        font-size: 60px;
+    }
+    .persona {
+        width: 320px;
+        margin-top: 30px;
+    }
+    .persona__title {
+        margin-bottom: 35px;
+    }
+    .persona__info {   
+        margin-bottom: 25px;
+    }
+    .persona__info-item { 
+        width: 150px;
+    }
+    .persona__info-item:nth-child(odd) {
+        margin-right: 10px;
+    }
+    .persona__info-title {
+        margin-bottom: 7px;
+    }
+    .desc {
+        width: 320px;
+        margin-top: 10px;
+    }
+    .desc__biography {
+        margin-bottom: 20px;
+    }
+    .desc__needs {
+        margin-bottom: 15px;
+    }
+    .text {
+        line-height: 1.2;
+    }
+    .avatar {
+        width: 360px;
+    }
+    .avatar img {
+        width: 360px;
+    }
+    .avatar__text {
+        bottom: 63px;
+        left: 25px;
+        width: 270px;
+        font-size: 25px;
+        line-height: 1.2;
+    }   
+}
+@media  (max-width: 1199px) {
+    .container {
+        max-width: 1199px;
+    }
+
+    .cv-wrapper {
+        width: 992px;
+    }
+
+    .avatar {
+        width: 320px;
+        margin-top: 20px;
+    }
+    .persona, .desc {
+        margin-top: 0;
+    }
+}
+    
+
+/* Medium Divices */
+@media (max-width: 992px) {
+    .container {
+        max-width: 991px;
+        padding: 0px 15px;
+        transform: translate(0, 0);    
+    }
+    .cv-wrapper {
+        width: 630px;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .persona {
+        width: 600px;
+        margin-top: 30px;
+    }
+    .persona__info {
+        margin-bottom: 0; 
+    }
+
+    .persona__info-item {
+        width: 150px;
+    }
+
+    .persona__info-item:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .persona__info-item:nth-child(3) {
+        order: 1;
+    }
+
+    .persona__tech {
+        margin-bottom: 30px;
+    }
+
+    .desc {
+        width: 600px;
+        margin-bottom: 30px;
+    }
+    .desc__biography {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    .desc__needs {
+        margin-bottom: 20px;
+    }
+
+    .avatar img {
+        width: 460px;
+
+    }
+
+    .avatar__text { 
+        bottom: 63px;
+        left: 25px;
+        width: 270px;
+        font-size: 25px;
+        line-height: 1.2;
+    }   
+      
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0px 15px;    
+    }
+    .cv-wrapper {
+        width: 630px;
+        align-items: center; 
+        margin-bottom: 30px;  
+    }    
+}
+
+/* Small Devices */
+@media (max-width: 480px) {
+    .container {
+        max-width: 479px;
+        padding: 0px 15px;   
+    }
+    .cv-wrapper {
+        width: 320px;
+        align-items: center;    
+    }
+    .persona {
+        width: 320px;
+    }
+    .persona__info { 
+        margin-bottom: 25px;
+    }
+    .desc {
+        width: 320px;
+    }
+    .avatar {
+        width: 320px;
+    }
+    .avatar img {
+        width: 320px;
+    }
+
+    .avatar__text {
+        bottom: 63px;
+        left: 25px;
+        width: 270px;
+        font-size: 25px;
+        line-height: 1.2;
+    }    
+}
+
+/* XS */
+@media (max-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+    .cv-wrapper {
+        width: 290px;
+        margin-bottom: 0;
+    }
+
+    .persona, .desc, .avatar {
+        width: 290px;
+    }
+
+    .persona__info-item {
+        width: 140px;
+    }
+
+    .persona__info-item:nth-child(3) {
+        order: 0;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .avatar img {
+        width: 290px;
+    }
+
+    .avatar {
+        margin-bottom: 15px;
+    }
+
+
+}
